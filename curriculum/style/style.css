@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+div {
+    /* outline: 1px solid red !important; */
+}
+
+.parent-container {
+    position: relative;
+    height: 100%;
+}
+
+.name {
+    float: left;
+    padding: 35px 0px 35px 100px;
+}
+
+.profile {
+    background: #F8F8FF;
+    width: 40%;
+    float: left;
+}
+
+.profile-cont {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #6884A0;
+    border-radius: 25px;
+}
+
+.profile-picture {
+    float: left;
+    padding: 20px;
+}
+
+.info {
+    /* overflow: hidden; */
+    position: absolute;
+    padding: 20px 20px;
+    top: 315px;
+    width: 30%;
+}
+
+.description {
+    position: absolute;
+    top: 512px;
+    width: 34%;
+}
+
+.description > p {
+    padding: 30px;
+}
+
+.links {
+    position: absolute;
+    top: 700px;
+    width: 34%;
+}
+
+.section-padding {
+    padding: 60px 60px 40px 40px;
+}
+
+.container {
+    min-height: 1000px;
+}
+
+.container  img {
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.experience {
+    background: #495F75;
+    width: 60%;
+    position: relative;
+    float: left;
+    color: #9099a0;
+    font-weight: 300;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.resume-divs > div {
+    color:#F0F8FF;
+}
+
+.resume-divs  h3 {
+    color:#4DB6AC;
+}
+
+.resume-divs span{
+    color: #BDBDBD
+}
+
