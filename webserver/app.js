@@ -11,11 +11,11 @@ const publicDir = path.join(__dirname, 'public')
 app.use(express.static(publicDir))
 
 app.get('/weather', function(req, res) {
-  // if (!req.query.search){
-  //   return res.send({
-  //     error: 'Tienes que escribir en ciudad en el url.'
-  //   })
-  // }
+  if (!req.query.search){
+    return res.send({
+      error: 'Tienes que escribir en ciudad en el url.'
+    })
+  }
   x.getCoords(req.query.search.toLowerCase(), function(err, coords) {
     if (err) {
       console.log(err)

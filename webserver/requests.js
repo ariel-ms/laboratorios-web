@@ -15,9 +15,9 @@ function checks(err, res, body, callback) {
         callback('Error de conexion.', undefined);
     }
 
-    if (body.features.length == 0) {
-        callback('La ciudad solicitada no existe.', undefined);
-    }
+    // if (body.features.length == 0) {
+    //     callback('La ciudad solicitada no existe.', undefined);
+    // }
 }
 
 function getCoords(ciudad, callback) {
